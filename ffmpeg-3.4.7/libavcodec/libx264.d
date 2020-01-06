@@ -14,5 +14,5 @@ libavcodec/libx264.o: libavcodec/libx264.c libavutil/eval.h \
  libavutil/frame.h libavutil/log.h libavutil/pixfmt.h \
  libavutil/rational.h libavcodec/version.h libavutil/version.h \
  libavcodec/internal.h libavutil/mathematics.h \
- /Work/CWorkspace/build-script-for-android/ffmpeg-3.4.7/libx264/android/arm-v7a/include/x264.h \
- /Work/CWorkspace/build-script-for-android/ffmpeg-3.4.7/libx264/android/arm-v7a/include/x264_config.h
+ /Work/CWorkspace/ffmpeg-buildscript-for-android/ffmpeg-3.4.7/libx264/android/arm-v7a/include/x264.h \
+ /Work/CWorkspace/ffmpeg-buildscript-for-android/ffmpeg-3.4.7/libx264/android/arm-v7a/include/x264_config.h

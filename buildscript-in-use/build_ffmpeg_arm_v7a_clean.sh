@@ -52,12 +52,14 @@ build_android() {
 	--enable-nonfree \
 	--enable-muxers \
 	--enable-muxer=mov \
+	--enable-muxer=mp3 \
 	--enable-muxer=mp4 \
 	--enable-muxer=h264 \
 	--enable-muxer=avi \
 	--disable-decoders \
 	--enable-decoder=aac \
 	--enable-decoder=aac_latm \
+	--enable-decoder=mp3 \
 	--enable-decoder=h264 \
 	--enable-decoder=mpeg4 \
 	--enable-decoder=mjpeg \
@@ -66,21 +68,20 @@ build_android() {
 	--enable-demuxer=image2 \
 	--enable-demuxer=h264 \
 	--enable-demuxer=aac \
+	--enable-demuxer=mp3 \
 	--enable-demuxer=avi \
 	--enable-demuxer=mpc \
 	--enable-demuxer=mpegts \
 	--enable-demuxer=mov \
 	--disable-parsers \
 	--enable-parser=aac \
+	--enable-parser=mp3 \
 	--enable-parser=ac3 \
 	--enable-parser=h264 \
 	--enable-protocols \
 	--enable-zlib \
 	--enable-avfilter \
 	--disable-outdevs \
-	--disable-ffprobe \
-	--disable-ffplay \
-	--disable-ffmpeg \
 	--disable-ffserver \
 	--disable-debug \
 	--disable-ffprobe \
