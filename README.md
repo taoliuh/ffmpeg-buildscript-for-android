@@ -56,6 +56,6 @@ $ ./build_ffmpeg_arm_v7a.sh
 
 生成产出到android目录
 
-# 5. 其它
+## 5. 其它
 附带ndk 20b编译ffmpeg的脚本及ffmpeg,fdk-aac,x264源码包。
 ffmpeg-3.4.7包含已编译完成的so库。
